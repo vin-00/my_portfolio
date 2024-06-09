@@ -1,0 +1,131 @@
+
+
+.header__nav{
+    display:flex;
+    overflow: hidden;
+    
+}
+
+.header__logo{
+    flex:1;
+    display: flex;
+    position: relative;
+
+    padding: 20px;
+}
+
+.header__logo-overlay{
+    position: absolute;
+    inset:0;
+    width: 100%;
+
+    background-color: var(--primary-color);
+    z-index:-1;
+}
+
+.header__logo h4{
+    padding-left: 30px;
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: var(--playfair-display);
+    color: #fff;
+    opacity: 0.8;
+}
+
+.header__menu,
+.header__menu-mobile {
+  padding: 20px;
+
+  flex: 1.236;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 64px;
+
+  list-style: none;
+}
+
+.header__menu li {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-family: var(--plus-jakarta-sans);
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+
+.header__menu li img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.header__menu-mobile {
+  display: none;
+  gap: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+.mobile{
+  width: 100%;
+  height: 100vh;
+  overflow:hidden;  
+}
+
+.cancel{
+  height: 11%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.cancel i{
+  font-size: 40px;
+  margin: 10px 20px 0 0;
+  cursor: pointer;
+}
+
+.opt{
+  height: 70%;
+  margin-top : 2%; 
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.opt li{
+  padding: 25px;
+  border: 1px solid rgba(255,255,255,0.6);
+  border-radius: 40px;
+  margin: 8px;
+  background-color: rgba(255,255,255,0.5);
+  font-size: 30px;
+  font-family: var(--plus-jakarta-sans);
+}
+
+.opt li:hover{
+  background-color: rgba(255,255,255,0.8);
+  border: 2px solid black;
+}
+
+.mobile__social{
+  height: 10%;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.mobile__social li a i{
+  font-size:40px;
+}
+
+.mobile__social li:hover , .cancel i:hover{
+  transform: scale(1.1);
+  transition: transform ease 0.2s;
+}
+
+

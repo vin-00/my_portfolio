@@ -1,0 +1,107 @@
+.contact {
+    padding: 64px;
+  
+    background-color: var(--primary-color);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .contact h2 {
+    font-size: 88px;
+    font-family: var(--playfair-display);
+    font-weight: 600;
+    line-height: 123px;
+  
+    color: #fff;
+    text-align: center;
+  }
+  
+  .contact p {
+    font-size: 18px;
+    font-family: var(--plus-jakarta-sans);
+    font-weight: 300;
+    line-height: 36px;
+    text-align: center;
+    margin-top: 32px;
+  
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .contact__form {
+    width: 100%;
+    margin-top: 40px;
+  
+    padding: 14px 14px 14px 24px;
+  
+    display: flex;
+    gap: 10px;
+  
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 46px;
+  }
+
+  .contact__form form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact__form input {
+    flex: 1;
+    margin-top: 15px;
+    font-size:  16px;
+    font-weight: 400px;
+    font-family: var(--plus-jakarta-sans);
+    width: 100%;
+    color: #fff;
+    opacity: 0.5;
+    padding: 10px;
+    border-radius: 40px;
+    background: transparent;
+    border: none;
+    outline: none;
+  }
+
+  .contact__form textarea{
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 35px;
+    border: none;
+    outline: none;
+    color: #fff;
+    resize: none;
+    padding: 20px;
+    font-size:20px ;
+    opacity: 0.8;
+
+    width: 100%;
+  }
+  
+  .contact__form input::placeholder {
+    color: #fff;
+    opacity: 0.5;
+  }
+  
+  .contact__form button {
+    padding: 20px;
+    
+    min-width: 180px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--plus-jakarta-sans);
+    color: #fff;
+    text-align: center;
+  
+    background: var(--black-400);
+    border-radius: 46px;
+    border: none;
+    outline: none;
+  
+    cursor: pointer;
+  }
+
