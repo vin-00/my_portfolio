@@ -1,0 +1,155 @@
+.projects {
+    padding: 64px;
+  
+    display: flex;
+    flex-direction: column;
+  
+    background-color: var(--primary-color);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  
+    overflow: hidden;
+  }
+  
+  .projects__title {
+    font-size: 56px;
+    font-family: var(--playfair-display);
+    font-weight: 600;
+    line-height: 78px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  
+  .projects__catalogue {
+    margin-top: 64px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 56px;
+  }
+  
+  .projects__button {
+    width: fit-content;
+  
+    padding: 20px 30px;
+    margin: 80px auto 0;
+  
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    font-family: var(--plus-jakarta-sans);
+    color: #fff;
+  
+    border: none;
+    outline: none;
+    background: var(--secondary-color);
+    border-radius: 64px;
+    cursor: pointer;
+  }
+  
+  .projects__button img {
+    width: 14px;
+    height: 14px;
+    object-fit: contain;
+  
+    margin-left: 21px;
+  }
+  
+  .projects__card {
+    padding: 38px;
+    width: 300px;
+    height: fit-content;
+  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  
+    border-radius: 36px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition : 0.4s ease-in all;
+  }
+  
+  .projects__card-image {
+    width: 210px;
+    height: 210px;
+    object-fit: contain;
+  }
+  
+  .projects__card-title {
+    margin-bottom: 5px;
+  
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: var(--playfair-display);
+    color: #fff;
+    text-align: center;
+  }
+  
+  .projects__card-details {
+    margin-top: 5px;
+    
+  }
+  
+  .projects__card-rating {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  
+  .projects__card-rating p {
+    font-size: 17px; 
+    font-weight: 300;
+    font-family: var(--plus-jakarta-sans);
+    color: #fff;
+    text-align: start;
+  }
+  
+  .projects__card-price {
+    font-size: 20px; 
+    font-weight: 500;
+    font-family: var(--plus-jakarta-sans);
+    color: #fff;
+  }
+
+  .projects__card-rating img {
+    width : 18px;
+    height: 18px;
+  }
+  
+  .projects__card:hover {
+    background: #fff;
+    box-shadow: 10px 20px 20px black;
+    /* min-width: 340px; */
+  }
+  
+  /* .projects__card:hover .projects__card-image {
+    width: 260px;
+    height: 260px;
+  } */
+  
+  .projects__card:hover .projects__card-title {
+    color: var(--black-500);
+    /* font-size: 32px; */
+  }
+  
+  /* .projects__card:hover .projects__card-rating img {
+    width: 22px;
+    height: 22px;
+  } */
+  
+  .projects__card:hover .projects__card-rating p {
+    /* font-size: 24px; */
+    color: var(--gray-100);
+  }
+  
+  .projects__card:hover .projects__card-price {
+    /* font-size: 24px; */
+    color: var(--secondary-color)
+  }

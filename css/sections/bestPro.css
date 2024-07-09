@@ -1,0 +1,150 @@
+.bestProj {
+    position: relative;
+  
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .circle {
+    position: absolute;
+    top: 44%;
+    left: 44%;
+    z-index: 1;
+  
+    width: 160px;
+    height: 160px;
+  
+    border-radius: 100%;
+    background-color: var(--secondary-color);
+    cursor: pointer;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .circle p {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--plus-jakarta-sans);
+  
+    text-transform: uppercase;
+    color: #fff;
+  }
+  
+  .project1,
+  .project2 {
+    width: 100%;
+    min-height: 640px;
+  
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .project__content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  
+    padding: 32px 64px;
+  }
+  
+  .project__list {
+    list-style: none;
+  
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .project__list li {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 12px;
+  
+    min-width: 210px;
+  }
+  
+  .project__icon {
+    width: 24px;
+    height: 24px;
+  
+    border-radius: 100%;
+    background-color: var(--primary-color);
+  }
+  
+  .project__icon img {
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+  }
+  
+  .project__list p {
+    flex: 1;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--plus-jakarta-sans);
+  
+    color: var(--secondary-color);
+  }
+  
+  .project__video {
+    flex: 1;
+    /* width: 50%; */
+    position: relative;
+    /* padding: 32px 64px; */
+  
+    background-color: var(--color-white);
+   
+  }
+  
+  .project__video video {
+    width: 640px;
+    height: 360px;
+    object-fit: contain;
+  }
+  
+  /* Arrows */
+  .project__arrow {
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .project__arrow img {
+    object-fit: contain;
+  }
+  
+  .project__arrow-left {
+    left: -2.5px;
+    top: 12%;
+  }
+  
+  .project__arrow-left img,
+  .project__arrow-top img {
+    width: auto;
+    height: 100%;
+  }
+  
+  .project__arrow-top {
+    top: -10.5px;
+    left: 12%;
+  }
+  
+  .project__arrow-bottom {
+    bottom: -6.5px;
+    right: 12%;
+  }
+  
+  .project__arrow-bottom img,
+  .project__arrow-right img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .project__arrow-right {
+    right: -2.5px;
+    bottom: 12%;
+  }
