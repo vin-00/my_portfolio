@@ -12,7 +12,7 @@ Hello! I am Vinay Khatri, a passionate software developer with expertise in java
 
 - **Programming Languages:** Java , Python , Javascript , Typescript , Full stack web development
 - **Frameworks & Libraries:** React , tailwind , express 
-- **Tools & Platforms:** Git ans GitHub
+- **Tools & Platforms:** Git and GitHub
 
 ## Contact
 
